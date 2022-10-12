@@ -1,0 +1,32 @@
+winscp   -- move the folder called SpringBootHelloWorld into ubuntu vm 
+
+
+
+
+docker build -t amdocsspringhello:1.0 .
+
+docker images
+
+docker run -d -p 8082:8080 amdocsspringhello:1.0
+
+docker ps 
+
+curl localhost:8082 
+
+
+open the port in the vm 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+winscp   -- move the jar file and also docker file into ubuntu vm to a folder 
+
+
+cd springhello
+
+docker build -t amdocsspringhello:1.0 .
+
+docker images
+
+docker run -d -p 8082:8080 amdocsspringhello:1.0
+
+docker ps 
+
+curl localhost:8082 
+
+vm settings network portforwarding  --   8082
+browser : localhost:8082
+
+
+pusing into docker hub 
+
+
+
+
+
+
+
